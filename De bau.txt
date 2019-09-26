@@ -1,0 +1,65 @@
+﻿Một công ty sản xuất Ba Con Sâu có 2 loại nhân viên:
+
+- Nhân viên sản xuất: lương = sản phẩm x 10000.
+
+- Nhân viên văn phòng: lương = mức lương – (ngày nghỉ x 10000).
+
+- Nhân viên công nhật: lương = (số ngày công * 100000) + lương cứng
+
+Số ngày công được tính như sau: số ngày đi làm - số ngày nghỉ
+
+Thông tin chung của nhân viên công ty gồm:
+
+- Họ tên.
+
+- Mã số
+
+- Địa chỉ
+
+- Số ngày nghỉ
+
+- Năm vào làm(dd/MM/yyyy)
+
+Ngoài lương được tính như trên, mỗi nhân viên còn được phụ cấp một khoản tiền là 100000.
+
+Và khoản tiền này cứ tăng thêm 20000 cho mỗi năm công tác ở công ty.
+
+Viết chương trình xây dựng các lớp cần thiết để thực hiện các chức năng sau:
+
+1. Nhập vào danh sách nhân viên công ty.
+
+2. Xuất thông tin từng loại nhân viên.
+
+3. Tính tổng số tiền công ty phải trả cho nhân viên mỗi tháng.
+
+4. Xuất danh sách thông tin nhân viên công nhật và số ngày công tương ứng.
+
+5. In ra danh sách thông tin các nhân viên lớn hơn 50 tuổi(chính sách nghỉ hưu).
+
+6. Xóa nhân viên có mã số X bất kỳ.
+
+7. Liệt kê hết tất cả thông tin nhân viên có chữ cái trong tên trùng với sâu x cần tìm kiếm.
+
+VD_1: x = "t"
+
+==> "teo"
+
+==> "tuan"
+
+==> "nhat"
+
+VD_2: x = "n"
+
+==> "anh"
+
+==> "an"
+
+==> "tan"
+
+VD_3: x = "nh"
+
+==> "anh"
+
+==> "nhi"
+
+==> "nhung"
